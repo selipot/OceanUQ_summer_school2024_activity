@@ -4,7 +4,7 @@ This repository is for educational purposes.
 
 ## Running with Docker
 
-With Docker installed on your laptop clone this repo, change directory into it, and mount it into a containerized environment:
+With Docker installed (and running) on your laptop clone this repo, change directory into it, and mount it into a containerized environment:
 
 ```
 git clone https://github.com/donatagiglio/OceanUQ_summer_school2024_activity
