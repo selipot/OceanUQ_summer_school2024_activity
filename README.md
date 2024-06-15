@@ -1,4 +1,4 @@
-This repository is for educational purposes.
+This repository is for educational purposes and the material is currently incomplete and not ready to be used: please check back later this summer for the final (ready to use) version!
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/donatagiglio/OceanUQ_summer_school2024_activity/HEAD)
 
