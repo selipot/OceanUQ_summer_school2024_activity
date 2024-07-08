@@ -20,8 +20,8 @@ Once you have cloned the demo_notebooks repository:
 - use `Windows powershell` to run the this command:
 
   ```
-  docker container run -p 8888:8888 -v path_to_files:/books argovis/notebooks jupyter notebook --allow-root --ip=0.0.0.0
+  docker container run -p 8888:8888 -v path_to_files:/books argovis/notebooks:OceanUQ2024 jupyter notebook --allow-root --ip=0.0.0.0
   ```
 
-  Please note that `path_to_files` is the full path to the `demo_notebooks` directory on your machine, e.g. `C:\Users\username\python_files\OceanUQ2024\OceanUQ_summer_school2024_activity`.
+  Please note that `path_to_files` is the full path to the `OceanUQ_summer_school2024_activity` directory on your machine, e.g. `C:\Users\username\python_files\OceanUQ2024\OceanUQ_summer_school2024_activity`.
 - After a moment, several URLs will be printed to the terminal. Copy the one beginning with http://127.0.0.1 to your browser of choice to access the notebook environment. 
