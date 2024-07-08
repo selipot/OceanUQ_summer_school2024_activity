@@ -9,7 +9,7 @@ Create a free Docker account at https://www.docker.com/ and install Docker (http
 ```
 git clone https://github.com/donatagiglio/OceanUQ_summer_school2024_activity
 cd OceanUQ_summer_school2024_activity
-docker container run -p 8888:8888 -v $(pwd):/books argovis/notebooks:OceanUQ2024
+docker container run -p 8888:8888 -v $(pwd):/books argovis/notebooks:OceanUQ2024 jupyter notebook --allow-root --ip=0.0.0.0
 ```
 
 After a moment, several URLs will be printed to the terminal. Copy the one beginning with http://127.0.0.1 to your browser of choice to access the notebook environment.
