@@ -1,9 +1,0 @@
-FROM python:3.9
-#FROM --platform=linux/arm64 python:3.9
-
-RUN apt-get update
-RUN apt-get install -y nano libproj-dev libgeos-dev
-RUN pip install jupyter cartopy==0.23.0 matplotlib==3.8.4 netcdf4==1.6.5 numpy==1.26.4 xarray==2024.5.0 gsw==3.6.18 gsw-xarray==0.4.0 h5netcdf==1.3.0 scipy==1.13.1
-
-WORKDIR /books
-CMD jupyter notebook --allow-root --ip=0.0.0.0
